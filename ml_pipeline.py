@@ -1,13 +1,7 @@
-# Download models if missing
-download_if_missing("1pQnnnOkPCXqs9NuYkxPF29ojfSSGlv1z", "preprocess_cluster.joblib")
-download_if_missing("1NTlxpVu6aF03ewcpPuba8rxRFoMz6fJz", "kmeans.joblib")
-download_if_missing("1SYvW_b0B3gWY18KxYU2U126g5xfDjB1-", "preprocess_predict.joblib")
-download_if_missing("1-IdB7PWijnHNpBGwFa53pkUUc6wvS7Fq", "rf_model.joblib")
-download_if_missing("1cXIAUv0LeI4K2SRsf8UZAq-zU_4tSFHs", "schema.json")
-import gdown
-import os
+
 import json
 import joblib # type: ignore
+import gdown
 import shap # type: ignore
 import pandas as pd # type: ignore
 import numpy as np # type: ignore
@@ -31,6 +25,14 @@ _explainer: Any = None
 
 def load_all():
     global _pre_cluster, _kmeans, _pre_predict, _rf, _schema
+
+    # DOWNLOAD FIRST
+    download_if_missing("1pQnnnOkPCXqs9NuYkxPF29ojfSSGlv1z", "preprocess_cluster.joblib")
+    download_if_missing("1NTlxpVu6aF03ewcpPuba8rxRFoMz6fJz", "kmeans.joblib")
+    download_if_missing("1SYvW_b0B3gWY18KxYU2U126g5xfDjB1-", "preprocess_predict.joblib")
+    download_if_missing("1-IdB7PWijnHNpBGwFa53pkUUc6wvS7Fq", "rf_model.joblib")
+    download_if_missing("1cXIAUv0LeI4K2SRsf8UZAq-zU_4tSFHs", "schema.json")
+
     try:
         models_to_load = {
             "preprocess_cluster.joblib": "_pre_cluster",
