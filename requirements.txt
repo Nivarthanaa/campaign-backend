@@ -1,0 +1,13 @@
+flask==3.0.3
+flask-cors==4.0.1
+pandas==2.1.4
+numpy==1.26.4
+scikit-learn==1.5.1
+reportlab==4.2.2
+shap==0.45.1
+SQLAlchemy==2.0.30
+matplotlib==3.9.1
+setuptools>=68.0.0
+wheel
+flask-sqlalchemy==3.1.1
+gdown

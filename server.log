@@ -1,0 +1,338 @@
+INFO:__main__:ML Models and Schema loaded successfully at startup.
+Successfully loaded all 4 models and schema.
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:14:57] "GET /report?campaignId=CIG00005 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:16] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:16] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:17] "GET /xai/local?campaignId=CIG00006 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:25] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:25] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:53] "OPTIONS /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:53] "POST /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:54] "OPTIONS /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:54] "POST /segment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:57] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:57] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:15:58] "GET /xai/local?campaignId=CIG00007 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:03] "OPTIONS /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:03] "POST /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:05] "GET /dashboard?campaignId=CIG00007 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:05] "GET /xai/global HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:09] "GET /campaigns HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:15] "GET /optimize?campaignId=CIG00007 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:16:27] "GET /report?campaignId=CIG00007 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:17:05] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:17:06] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:17:06] "GET /xai/local?campaignId=CIG00007 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:18:43] "GET /dashboard?campaignId=CIG00007 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:19:10] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:19:10] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:19:10] "GET /xai/local?campaignId=CIG00007 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:19:22] "GET /report?campaignId=CIG00007 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /campaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /dashboard?campaignId=CIG00007 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /xai/local?campaignId=CIG00007 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:33] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:34] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:21:34] "GET /campaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:22:46] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:22:46] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:13] "OPTIONS /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:13] "POST /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:19] "OPTIONS /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:19] "POST /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:20] "POST /segment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:22] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:22] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:23:22] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:26:51] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:26:51] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:26:51] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:27:46] "GET /campaigns HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:28:28] "GET /dashboard?campaignId=CIG00005 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:28:29] "GET /xai/local?campaignId=CIG00005 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:29:50] "GET /dashboard?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:29:50] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:29:59] "GET /campaigns HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:30:27] "GET /dashboard?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:30:27] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:30:30] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:30:30] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:30:30] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:31:01] "GET /dashboard?campaignId=CIG00005 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:31:01] "GET /xai/local?campaignId=CIG00005 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:31:56] "GET /dashboard?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:31:56] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:33:13] "GET /dashboard?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:33:13] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:33:17] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:33:18] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:33:18] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:35:57] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:35:57] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:35:57] "GET /xai/local?campaignId=CIG00008 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:46:35] "GET /report?campaignId=CIG00008 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:18] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:18] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:43] "OPTIONS /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:43] "POST /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:45] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:45] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:47:45] "GET /xai/local?campaignId=CIG00009 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:48:01] "GET /optimize?campaignId=CIG00009 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:49:38] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:49:38] "GET /schema HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:04] "OPTIONS /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:05] "POST /campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:07] "OPTIONS /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:07] "POST /segment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:12] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:12] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:12] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:17] "GET /dashboard?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:17] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:32] "GET /campaigns HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:50:36] "GET /report?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:52:32] "GET /report?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:52:43] "GET /optimize?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:52:47] "GET /dashboard?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:52:47] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:53:24] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:53:24] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:53:25] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:55:26] "GET /report?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:16] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:16] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:16] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:20] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:20] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:22] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:22] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:22] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:25] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:25] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:27] "GET /dashboard?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:27] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:29] "GET /campaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:31] "OPTIONS /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:115: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:31] "POST /predict HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:31] "GET /xai/local?campaignId=CIG00010 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:33] "OPTIONS /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:33] "POST /segment HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:35] "GET /optimize?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:39] "GET /optimize?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:42] "GET /optimize?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 20:59:47] "GET /report?campaignId=CIG00010 HTTP/1.1" 200 -
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:408: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+/Users/nivi/Desktop/FYP/IPD Submission/final-year-project/backend/app.py:84: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  c = Campaign.query.get(campaignId)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2026 21:02:12] "GET /report?campaignId=CIG00010 HTTP/1.1" 200 -

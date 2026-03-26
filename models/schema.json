@@ -1,0 +1,202 @@
+{
+  "target": "engagement_label",
+  "feature_cols": [
+    "platform",
+    "post_type",
+    "ad_spend_usd",
+    "ad_duration_days",
+    "daily_budget_usd",
+    "likes",
+    "comments",
+    "shares",
+    "saves",
+    "most_engaged_gender",
+    "most_engaged_age_group",
+    "region",
+    "device_type"
+  ],
+  "numeric_cols": [
+    "ad_spend_usd",
+    "ad_duration_days",
+    "daily_budget_usd",
+    "likes",
+    "comments",
+    "shares",
+    "saves"
+  ],
+  "categorical_cols": [
+    "platform",
+    "post_type",
+    "most_engaged_gender",
+    "most_engaged_age_group",
+    "region",
+    "device_type"
+  ],
+  "best_k": 8,
+  "silhouette": 0.1187126014489585,
+  "feature_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    20.0,
+    20.0,
+    1.0,
+    1.0,
+    1.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    1.0,
+    1.0
+  ],
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "size": 2408,
+      "avg_engagement_score": 0.95,
+      "avg_ad_spend_usd": 152.96,
+      "avg_daily_budget_usd": 13.75,
+      "top_platform": "Facebook",
+      "top_post_type": "Reel",
+      "top_gender": "Male",
+      "top_age_group": "35-44",
+      "top_region": "Sri Lanka",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 1,
+      "size": 1605,
+      "avg_engagement_score": 0.981,
+      "avg_ad_spend_usd": 151.47,
+      "avg_daily_budget_usd": 13.62,
+      "top_platform": "Instagram",
+      "top_post_type": "Reel",
+      "top_gender": "Female",
+      "top_age_group": "18-24",
+      "top_region": "Australia",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 2,
+      "size": 1987,
+      "avg_engagement_score": 0.983,
+      "avg_ad_spend_usd": 152.39,
+      "avg_daily_budget_usd": 13.72,
+      "top_platform": "Instagram",
+      "top_post_type": "Reel",
+      "top_gender": "Male",
+      "top_age_group": "25-34",
+      "top_region": "India",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 3,
+      "size": 2968,
+      "avg_engagement_score": 0.96,
+      "avg_ad_spend_usd": 149.93,
+      "avg_daily_budget_usd": 13.31,
+      "top_platform": "Facebook",
+      "top_post_type": "Reel",
+      "top_gender": "Female",
+      "top_age_group": "18-24",
+      "top_region": "Australia",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 4,
+      "size": 3528,
+      "avg_engagement_score": 0.982,
+      "avg_ad_spend_usd": 151.53,
+      "avg_daily_budget_usd": 13.55,
+      "top_platform": "Instagram",
+      "top_post_type": "Reel",
+      "top_gender": "Female",
+      "top_age_group": "18-24",
+      "top_region": "Sri Lanka",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 5,
+      "size": 2543,
+      "avg_engagement_score": 0.968,
+      "avg_ad_spend_usd": 152.44,
+      "avg_daily_budget_usd": 13.9,
+      "top_platform": "Facebook",
+      "top_post_type": "Reel",
+      "top_gender": "Female",
+      "top_age_group": "25-34",
+      "top_region": "Sri Lanka",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 6,
+      "size": 2969,
+      "avg_engagement_score": 0.981,
+      "avg_ad_spend_usd": 150.22,
+      "avg_daily_budget_usd": 13.76,
+      "top_platform": "Instagram",
+      "top_post_type": "Reel",
+      "top_gender": "Male",
+      "top_age_group": "18-24",
+      "top_region": "Sri Lanka",
+      "top_device": "Mobile"
+    },
+    {
+      "cluster_id": 7,
+      "size": 1992,
+      "avg_engagement_score": 0.982,
+      "avg_ad_spend_usd": 148.12,
+      "avg_daily_budget_usd": 13.66,
+      "top_platform": "Instagram",
+      "top_post_type": "Reel",
+      "top_gender": "All",
+      "top_age_group": "18-24",
+      "top_region": "Sri Lanka",
+      "top_device": "Mobile"
+    }
+  ],
+  "enums": {
+    "platform": [
+      "Instagram",
+      "Facebook"
+    ],
+    "post_type": [
+      "Reel",
+      "Post",
+      "Story"
+    ],
+    "most_engaged_gender": [
+      "Female",
+      "Male",
+      "All"
+    ],
+    "most_engaged_age_group": [
+      "18-24",
+      "25-34",
+      "35-44",
+      "45-54"
+    ],
+    "region": [
+      "Sri Lanka",
+      "Australia",
+      "India",
+      "Other"
+    ],
+    "device_type": [
+      "Mobile",
+      "Desktop"
+    ]
+  }
+}
