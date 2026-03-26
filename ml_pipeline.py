@@ -9,6 +9,7 @@ from typing import Any, Optional, Dict, List
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
+
 def download_if_missing(file_id, filename):
     path = os.path.join(MODEL_DIR, filename)
     if not os.path.exists(path):
