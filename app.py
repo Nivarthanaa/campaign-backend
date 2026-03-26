@@ -32,7 +32,11 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(BASE_DIR, 'project.db')}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+from ml_pipeline import db
 db.init_app(app)
+
+with app.app_context():
+    db.create_all()
 
 # Robust CORS for development
 CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "DELETE", "OPTIONS", "PUT"]}})
